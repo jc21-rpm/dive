@@ -4,8 +4,8 @@
 
 Name:           dive
 Version:        0.10.0
-Release:        1%{?dist}
-Summary:        A tool for exploring each layer in a docker image 
+Release:        1
+Summary:        A tool for exploring each layer in a docker image
 Group:          Applications/System
 License:        MIT
 URL:            https://github.com/%{gh_user}/%{name}
