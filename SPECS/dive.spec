@@ -3,8 +3,8 @@
 %global gh_user wagoodman
 
 Name:           dive
-Version:        0.10.0
-Release:        1
+Version:        0.12.0
+Release:        1%{?dist}
 Summary:        A tool for exploring each layer in a docker image
 Group:          Applications/System
 License:        MIT
@@ -29,6 +29,9 @@ install -Dm0755 %{_builddir}/bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Tue Jun 25 2024 Jamie Curnow <jc@jc21.com> 0.12.0-1
+- https://github.com/wagoodman/dive/releases/tag/v0.12.0
+
 * Tue Jun 29 2021 Jamie Curnow <jc@jc21.com> 0.10.0-1
 - https://github.com/wagoodman/dive/releases/tag/v0.10.0
 
